@@ -2,16 +2,18 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Pixabay></Pixabay>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Pixabay from './components/pixabay/Pixabay'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Pixabay,
   }
 }
 </script>
